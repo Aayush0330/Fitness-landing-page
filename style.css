@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Mulish", sans-serif;
+}
+
+body,
+html {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-inline-end: 570px;
+}
+
+.logo a {
+  font-size: 1.375rem;
+  color: #89c5cc;
+}
+
+.logo:hover {
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+li a {
+  color: #00000070;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+li a:hover {
+  color: #000000;
+  font-weight: 700;
+}
+
+#main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 60px;
+}
+
+.container {
+  text-align: start;
+  justify-items: center;
+}
+
+.context {
+  width: 100%;
+  height: 100%;
+}
+
+.context h1 {
+  font-size: 3rem;
+  width: 560px;
+  height: 144px;
+}
+
+.context p {
+  font-size: 1rem;
+  width: 448px;
+  height: 78px;
+}
+
+span {
+  color: #89c5cc;
+}
+
+button {
+  background-color: #69b99d;
+  padding: 14px 32px 15px 32px;
+  text-align: center;
+  width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  body,
+  html {
+    display: block;
+    height: 100vh;
+  }
+
+  #main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-inline-end: 150px;
+  }
+
+  #main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+  }
+
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  .logo a {
+    font-size: 15px;
+    color: #89c5cc;
+  }
+
+  li a {
+    color: #00000070;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .context {
+    width: 100%;
+    height: 100%;
+    text-align: -webkit-center;
+  }
+
+  .context h1 {
+    font-size: 28px;
+    width: 250px;
+    height: 80px;
+  }
+
+  .context p {
+    font-size: 12px;
+    width: 250px;
+    height: 80px;
+  }
+
+  button {
+    padding: 7px 16px 8px 16px;
+    width: 139px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .fitness {
+    height: 400px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .logo {
+    margin-inline-end: 220px;
+  }
+}
